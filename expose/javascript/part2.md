@@ -12,10 +12,15 @@
 11. The code will return an error because the code attempts to reassign 'discounted' at line 8, which is not allowed since 'discounted' was already assigned at line 3 as a const.
 
 ### Data Types
-12. a. student.name;
+12. 
+    a. student.name;
+    
     b. student["Grad Year"];
+
     c. student.greeting();
+
     d. student["Favorite Teacher"]["name"];
+
     e. student["Courseload"][0];
 
 ### Arithmetic
@@ -49,5 +54,5 @@
     e. 'false' is outputted because "false" is converted to its number value of '0', and '0' does not equal '2'.
     
     f. 'true' is outputted because Boolean(2) returns 'true'. Since both operands are boolean data types, we then check if their values are the same, and they are the same, which is why we return 'true'.
-    
+
 15. The '==' operator converts the operands into numbers and checks to see whether the number values are equal or not. The '===' operator checks to see if two operands are equal without converting their datatypes. Therefore, if the two operands are of different data types, the output is automatically 'false'.
