@@ -56,3 +56,10 @@
     f. 'true' is outputted because Boolean(2) returns 'true'. Since both operands are boolean data types, we then check if their values are the same, and they are the same, which is why we return 'true'.
 
 15. The '==' operator converts the operands into numbers and checks to see whether the number values are equal or not. The '===' operator checks to see if two operands are equal without converting their datatypes. Therefore, if the two operands are of different data types, the output is automatically 'false'.
+16. Answer is on the part2-question16.js file.
+    
+### Loops
+17.  The result of the code will be the array '[2,4,6]'. So for every element in '[1,2,3]', that element is inserted as a parameter of doSomething(num), through the variable 'callback', which returns 'element*2'.
+The new array will contain 'element*2' at the same index that 'element' was at in the input 'array'.
+18. Answer is on the part2-question18.js file.
+19. 
