@@ -19,7 +19,8 @@
     e. student["Courseload"][0];
 
 ### Arithmetic
-13. a. "32" is outputted because the integer 2 maps to "2", so "3"+"2"="32".
+13. 
+    a. "32" is outputted because the integer 2 maps to "2", so "3"+"2"="32".
     b. '1' is outputted because "3" is converted to the integer '3' and then '2' is subtracted from it.
     c. '3' is outputted because null evaluates to '0', so '3 + 0 = 3'.
     d. "3null" is outputted because null is converted to "null", so "3" + "null" is concatenated as "3null".
@@ -29,7 +30,8 @@
     h. 'NaN' is outputted. Since undefined has no integer value, an error occurs when trying to get the integer value of undefined. 'NaN' is outputted whenever there is an error.
 
 ### Comparison
-14. a. 'true' is outputted because "2" is converted to the integer '2', and '2' is greater than '1'.
+14. 
+    a. 'true' is outputted because "2" is converted to the integer '2', and '2' is greater than '1'.
     b. 'false' is outputted because the first character of "2" is greater than the first character of "12". 2 is greater than 1, so "2" > "12".
     c. 'true' is outputted because the integer value of "2" is '2', and '2' does equal '2'.
     d. 'false' is outputted because '2' and "2" are of different data types, so they don't equal each other.
