@@ -11,14 +11,14 @@
 10. The code will return an error because the code attempts to reassign 'discounted' at line 8, which is not allowed since 'discounted' was already assigned at line 3 as a const.
 11. The code will return an error because the code attempts to reassign 'discounted' at line 8, which is not allowed since 'discounted' was already assigned at line 3 as a const.
 
-Data Types
+### Data Types
 12. a. student.name;
     b. student["Grad Year"];
     c. student.greeting();
     d. student["Favorite Teacher"]["name"];
     e. student["Courseload"][0];
 
-Arithmetic
+### Arithmetic
 13. a. "32" is outputted because the integer 2 maps to "2", so "3"+"2"="32".
     b. '1' is outputted because "3" is converted to the integer '3' and then '2' is subtracted from it.
     c. '3' is outputted because null evaluates to '0', so '3 + 0 = 3'.
@@ -28,7 +28,7 @@ Arithmetic
     g. "3undefined" because undefined is converted to "undefined", so "3" + "undefined" is concatenated as "3undefined".
     h. 'NaN' is outputted. Since undefined has no integer value, an error occurs when trying to get the integer value of undefined. 'NaN' is outputted whenever there is an error.
 
-Comparison
+### Comparison
 14. a. 'true' is outputted because "2" is converted to the integer '2', and '2' is greater than '1'.
     b. 'false' is outputted because the first character of "2" is greater than the first character of "12". 2 is greater than 1, so "2" > "12".
     c. 'true' is outputted because the integer value of "2" is '2', and '2' does equal '2'.
